@@ -57,7 +57,6 @@ class GradCAM:
 
 def _overlay_heatmap(image: np.ndarray, cam: np.ndarray, alpha: float = 0.4) -> np.ndarray:
     cam_resized = np.uint8(255 * cam)
-    cam_resized = np.stack([cam_resized] * 3, axis=-1)
     heatmap = plt.cm.jet(cam_resized / 255.0)[:, :, :3]
     heatmap = (heatmap * 255).astype(np.uint8)
     overlay = (alpha * heatmap + (1 - alpha) * image).astype(np.uint8)

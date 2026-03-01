@@ -48,6 +48,34 @@ Run `python visualize.py` after placing data to generate a full set of visuals:
 - `transformations_example.png`: JPEG/resize/crop/noise
 - `gradcam_example.png`: CNN explanation (if CNN model exists)
 - `feature_importance.png`, `shap_summary.png`: feature model explanations (if model exists)
+- `real_samples_grid.png`, `synthetic_samples_grid.png`: sample grids
+- `class_distribution.png`: dataset balance
+- `lbp_histogram.png`, `noise_residual_example.png`, `gradient_magnitude_example.png`
+- `cnn_metrics_roc.png`, `cnn_metrics_pr.png`, `cnn_confusion.png`
+- `forensic_metrics_roc.png`, `forensic_metrics_pr.png`, `forensic_confusion.png`
+
+### Visual Gallery
+![Real Samples](outputs/plots/real_samples_grid.png)
+![Synthetic Samples](outputs/plots/synthetic_samples_grid.png)
+![FFT Example](outputs/plots/fft_example.png)
+![Feature Correlation](outputs/plots/feature_correlation_matrix.png)
+![High-Frequency Ratio](outputs/plots/feature_high_freq_ratio.png)
+![Spectral Entropy](outputs/plots/feature_spectral_entropy.png)
+![Noise Variance](outputs/plots/feature_noise_variance.png)
+![Noise Correlation](outputs/plots/feature_noise_correlation.png)
+![LBP Histogram](outputs/plots/lbp_histogram.png)
+![Transformations](outputs/plots/transformations_example.png)
+![Noise Residual](outputs/plots/noise_residual_example.png)
+![Gradient Magnitude](outputs/plots/gradient_magnitude_example.png)
+![Grad-CAM](outputs/plots/gradcam_example.png)
+![Feature Importance](outputs/plots/feature_importance.png)
+![SHAP Summary](outputs/plots/shap_summary.png)
+![CNN ROC](outputs/plots/cnn_metrics_roc.png)
+![CNN PR](outputs/plots/cnn_metrics_pr.png)
+![CNN Confusion](outputs/plots/cnn_confusion.png)
+![Forensic ROC](outputs/plots/forensic_metrics_roc.png)
+![Forensic PR](outputs/plots/forensic_metrics_pr.png)
+![Forensic Confusion](outputs/plots/forensic_confusion.png)
 
 ## Results Comparison
 The evaluation script outputs a comparison table:
