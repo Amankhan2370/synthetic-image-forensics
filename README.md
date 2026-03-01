@@ -200,6 +200,3 @@ Run `python visualize.py` after placing data to generate a full set of visuals:
 - Expand datasets with diverse generative models (SDXL, FLUX, StyleGAN3)
 - Improve robustness under heavy compression and post-processing
 - Add multimodal consistency checks and provenance signals
-
-## Notes
-This code is structured for research presentations and GitHub readiness, with modular design, docstrings, and interpretable outputs.
